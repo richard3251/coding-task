@@ -4,8 +4,12 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-.sdkmanrc
-application.yml
+
+### Gradle ###
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
 
 ### STS ###
 .apt_generated
@@ -37,3 +41,36 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### macOS ###
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### H2 Database ###
+*.db
+*.mv.db
+*.trace.db
+*.lock.db
+*.h2.db
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+
+### Generated Files ###
+**/generated/
+**/target/
